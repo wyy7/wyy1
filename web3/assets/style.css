@@ -1,0 +1,80 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	padding:0;
+	margin:0 ;
+	font-family:"方正楷体";
+	}
+ul li{
+	padding: 0;
+	margin: 0 auto;
+	text-align:center;
+	}
+.content{
+	width:100%;
+	background:#D4D4D4;
+	margin:0 auto;
+	}
+.header{
+	width:1000px;
+	height:100px;
+	background:#D4D4D4;
+	margin:0 auto;
+	}
+.header img{
+	float:left;
+	}
+.quickLinks{
+	width:30%;
+	margin-top:32px;
+	float:right;
+	text-align:center;
+	}
+.quickLinks a{
+	display:inline-block;
+	width:60px;
+	height:36px;
+	border:1px #1176DB solid;
+	color:#3E70C1;
+	text-decoration:none;
+	font-size:12px;
+	line-height:36px;
+	}
+.quickLinks a:hover{
+	box-shadow:#D1F7FE 0 0 10px ;
+	}
+.nav{
+	width:100%;
+	height:60px;
+	background:#4172b8;
+    }
+.nav ul li{
+	list-style: none;
+	float:left;
+	width:100px;
+	height:60px;
+	line-height:60px;
+
+}
+.nav ul li a{
+	color:white;
+	text-decoration:none;
+	display:block;
+	width:100%;
+	height:60px;
+	}
+.nav ul{
+		width: 800px;
+		margin: 0 auto;
+	}
+.nav ul li:hover{
+		background:#0c212b;
+		transition:2s;
+	}
+.banner{
+	width: 100%;
+	height: 300px;
+	background: url("../img/banner1.jpg") no-repeat;
+	background-size: 100%;
+}
